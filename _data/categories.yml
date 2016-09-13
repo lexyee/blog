@@ -10,3 +10,8 @@ booknote:
 musician:
  name: musician
 
+poem:
+ name: poem
+
+blog:
+ name: blog

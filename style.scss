@@ -109,6 +109,22 @@ img {
   max-width: 100%;
 }
 
+.blog-list-item {
+  display: inline-block;
+  width: 33.3%
+}
+
+.blog-list-item:nth-child(1) {
+    background-color: red;
+}
+.blog-list-item:nth-child(2) {
+    background-color: green;
+}
+  .blog-list-item:nth-child(3) {
+    background-color: blue;
+}
+
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -121,6 +137,10 @@ img {
   border-top: 1px solid #eee;
   font-style: italic;
   color: $gray;
+}
+
+.date.no-border {
+  border-top: none;
 }
 
 .category {

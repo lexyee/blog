@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Windows平台下让iPad变身midi键盘
-category: [musician]
+category: [musician, blog]
 ---
 
 辞职之后，一度赋闲。本打算重新开始把琴好好学一学，结果右手因为练习过久不知轻重弹出了腱鞘炎，彻底废了；无奈之下转攻吉他，没想到左手也逢时地被菜刀切掉一块儿，按不了弦了。
