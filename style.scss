@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background: $white;
+  background: url("/images/texture-noise.png") repeat top left fixed;
   font: 16px/1.7 $lucida;
   color: #666;
 }
@@ -38,20 +38,24 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1em 0 15px;
   padding: 0;
 
+  &.title--weightnormal {
+    font-weight: normal
+  }
+
   @include mobile {
     line-height: 1.4;
   }
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 22px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 h3 {
@@ -183,12 +187,12 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  // border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -279,6 +283,12 @@ nav {
 // .main
 //
 
+#main.container{
+  background-color: $mainHighlight;
+  padding: 10px 50px;
+  box-shadow: 0px 5px 10px #e0e0e0;
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -310,10 +320,10 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  // margin-top: 50px;
+  // border-top: 1px solid #ddd;
+  // border-bottom: 1px solid #ddd;
+  // background-color: $lightGray;
 }
 
 footer {
